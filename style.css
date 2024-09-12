@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  color: #fff;
+  padding-top: 4%;
+  padding-left: 10%;
+}
+
+.container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.container h6{
+  color:#333;
+}
+
+.container h1 img {
+  width: 60px;
+}
+
+.container button img {
+  width: 25px;
+  margin-right: 8px;
+}
+
+.container button {
+  display: flex;
+  align-items: center;
+  background: #333333;
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  background: linear-gradient(to right, #dd1818, #333333);
+  color: #fff;
+  font-size: 16px;
+  outline: 0;
+  border: 0;
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+/* Mobile Screen Styles */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .container h1 img {
+    width: 40px;
+  }
+
+  .container button {
+    font-size: 14px;
+    padding: 12px 20px;
+    margin: 20px 0;
+  }
+
+  .container button img {
+    width: 20px;
+  }
+
+  .input-box {
+    min-height: 120px;
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .input-box img {
+    width: 20px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+/* Very Small Screens */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 12%;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container h1 img {
+    width: 35px;
+  }
+
+  .container button {
+    font-size: 12px;
+    padding: 10px 15px;
+    margin: 15px 0;
+  }
+
+  .container button img {
+    width: 18px;
+  }
+
+  .input-box {
+    min-height: 100px;
+    padding: 12px;
+    margin: 10px 0;
+  }
+
+  .input-box img {
+    width: 18px;
+    bottom: 8px;
+    right: 8px;
+  }
+}
